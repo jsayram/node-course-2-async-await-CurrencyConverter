@@ -18,7 +18,6 @@ const getExchangeRate = async(from, to) => {
     } catch (e) {
         throw new Error(`Unable to get exchange rate for ${from} and ${to}`);
     }
-
 };
 
 const getCountries = async(currencyCode) => {
